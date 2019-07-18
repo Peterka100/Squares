@@ -1,0 +1,16 @@
+{
+  "name": "squares",
+  "version": "1.0.0",
+  "description": "Moje nova hra",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "budo": "^11.6.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "budo src/main.js:build.js --live"
+  },
+  "author": "Peter Krak",
+  "license": "ISC"
+}
